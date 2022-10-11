@@ -22,7 +22,7 @@ while webcam.isOpened():
 
     if status:
         cv2.imshow("test", frame)
-
+ 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
