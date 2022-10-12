@@ -1,4 +1,5 @@
 # 참고 링크 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=woosoung1993&logNo=221622062441
+# geopandas를 이용하여 fmtc shp 파일을 읽는 방법
 
 import geopandas as gpd
 import matplotlib.pyplot as plt
