@@ -1,3 +1,5 @@
+# 참고 링크 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=woosoung1993&logNo=221622062441
+
 import geopandas as gpd
 import matplotlib.pyplot as plt
 
