@@ -1,9 +1,7 @@
 # study_autonomous-driving
 자율주행 자동차를 공부하는 공간입니다.
 
-###
-카메라 종류
-###
+## 카메라 종류
 
 1. TRI054S-CC
 
