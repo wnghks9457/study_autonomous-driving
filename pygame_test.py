@@ -28,6 +28,16 @@ def runGame():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:       # 게임 화면 종료
                 done = True
+            if event.type == pygame.KEYDOWN:        # 현재는 화면 밖으로 나가는 현상 발생
+                if event.key == pygame.K_UP:
+                    blitz_y -= 10
+                elif event.key == pygame.K_DOWN:
+                    blitz_y += 10
+                elif event.key == pygame.K_LEFT:
+                    blitz_x -= 10
+                elif event.key == pygame.K_RIGHT:
+                    blitz_x += 10
+
         screen.blit(blitz, (blitz_x, blitz_y))
         pygame.display.update()     # 게임 화면 업데이트
 
